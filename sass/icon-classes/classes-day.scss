@@ -1,80 +1,80 @@
 @use "../icon-variables/variables-day" as *;
 
 .wi-day-sunny::before {
-	content: variables-day.$day-sunny;
+	content: $day-sunny;
 }
 .wi-day-cloudy::before {
-	content: variables-day.$day-cloudy;
+	content: $day-cloudy;
 }
 .wi-day-cloudy-gusts::before {
-	content: variables-day.$day-cloudy-gusts;
+	content: $day-cloudy-gusts;
 }
 .wi-day-cloudy-windy::before {
-	content: variables-day.$day-cloudy-windy;
+	content: $day-cloudy-windy;
 }
 .wi-day-fog::before {
-	content: variables-day.$day-fog;
+	content: $day-fog;
 }
 .wi-day-hail::before {
-	content: variables-day.$day-hail;
+	content: $day-hail;
 }
 .wi-day-haze::before {
-	content: variables-day.$day-haze;
+	content: $day-haze;
 }
 .wi-day-lightning::before {
-	content: variables-day.$day-lightning;
+	content: $day-lightning;
 }
 .wi-day-rain::before {
-	content: variables-day.$day-rain;
+	content: $day-rain;
 }
 .wi-day-rain-mix::before {
-	content: variables-day.$day-rain-mix;
+	content: $day-rain-mix;
 }
 .wi-day-rain-wind::before {
-	content: variables-day.$day-rain-wind;
+	content: $day-rain-wind;
 }
 .wi-day-showers::before {
-	content: variables-day.$day-showers;
+	content: $day-showers;
 }
 .wi-day-sleet::before {
-	content: variables-day.$day-sleet;
+	content: $day-sleet;
 }
 .wi-day-sleet-storm::before {
-	content: variables-day.$day-sleet-storm;
+	content: $day-sleet-storm;
 }
 .wi-day-snow::before {
-	content: variables-day.$day-snow;
+	content: $day-snow;
 }
 .wi-day-snow-thunderstorm::before {
-	content: variables-day.$day-snow-thunderstorm;
+	content: $day-snow-thunderstorm;
 }
 .wi-day-snow-wind::before {
-	content: variables-day.$day-snow-wind;
+	content: $day-snow-wind;
 }
 .wi-day-sprinkle::before {
-	content: variables-day.$day-sprinkle;
+	content: $day-sprinkle;
 }
 .wi-day-storm-showers::before {
-	content: variables-day.$day-storm-showers;
+	content: $day-storm-showers;
 }
 .wi-day-sunny-overcast::before {
-	content: variables-day.$day-sunny-overcast;
+	content: $day-sunny-overcast;
 }
 .wi-day-thunderstorm::before {
-	content: variables-day.$day-thunderstorm;
+	content: $day-thunderstorm;
 }
 .wi-day-windy::before {
-	content: variables-day.$day-windy;
+	content: $day-windy;
 }
 .wi-solar-eclipse::before {
-	content: variables-day.$solar-eclipse;
+	content: $solar-eclipse;
 }
 .wi-hot::before {
-	content: variables-day.$hot;
+	content: $hot;
 }
 .wi-day-cloudy-high::before {
-	content: variables-day.$day-cloudy-high;
+	content: $day-cloudy-high;
 }
 .wi-day-light-wind::before {
-	content: variables-day.$day-light-wind;
+	content: $day-light-wind;
 }

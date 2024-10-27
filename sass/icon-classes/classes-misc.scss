@@ -1,71 +1,71 @@
 @use "../icon-variables/variables-misc" as *;
 
 .wi-alien::before {
-	content: variables-misc.$alien;
+	content: $alien;
 }
 .wi-celsius::before {
-	content: variables-misc.$celsius;
+	content: $celsius;
 }
 .wi-fahrenheit::before {
-	content: variables-misc.$fahrenheit;
+	content: $fahrenheit;
 }
 .wi-degrees::before {
-	content: variables-misc.$degrees;
+	content: $degrees;
 }
 .wi-thermometer::before {
-	content: variables-misc.$thermometer;
+	content: $thermometer;
 }
 .wi-thermometer-exterior::before {
-	content: variables-misc.$thermometer-exterior;
+	content: $thermometer-exterior;
 }
 .wi-thermometer-internal::before {
-	content: variables-misc.$thermometer-internal;
+	content: $thermometer-internal;
 }
 .wi-cloud-down::before {
-	content: variables-misc.$cloud-down;
+	content: $cloud-down;
 }
 .wi-cloud-up::before {
-	content: variables-misc.$cloud-up;
+	content: $cloud-up;
 }
 .wi-cloud-refresh::before {
-	content: variables-misc.$cloud-refresh;
+	content: $cloud-refresh;
 }
 .wi-horizon::before {
-	content: variables-misc.$horizon;
+	content: $horizon;
 }
 .wi-horizon-alt::before {
-	content: variables-misc.$horizon-alt;
+	content: $horizon-alt;
 }
 .wi-sunrise::before {
-	content: variables-misc.$sunrise;
+	content: $sunrise;
 }
 .wi-sunset::before {
-	content: variables-misc.$sunset;
+	content: $sunset;
 }
 .wi-moonrise::before {
-	content: variables-misc.$moonrise;
+	content: $moonrise;
 }
 .wi-moonset::before {
-	content: variables-misc.$moonset;
+	content: $moonset;
 }
 .wi-refresh::before {
-	content: variables-misc.$refresh;
+	content: $refresh;
 }
 .wi-refresh-alt::before {
-	content: variables-misc.$refresh-alt;
+	content: $refresh-alt;
 }
 .wi-umbrella::before {
-	content: variables-misc.$umbrella;
+	content: $umbrella;
 }
 .wi-barometer::before {
-	content: variables-misc.$barometer;
+	content: $barometer;
 }
 .wi-humidity::before {
-	content: variables-misc.$humidity;
+	content: $humidity;
 }
 .wi-na::before {
-	content: variables-misc.$na;
+	content: $na;
 }
 .wi-train::before {
-	content: variables-misc.$train;
+	content: $train;
 }

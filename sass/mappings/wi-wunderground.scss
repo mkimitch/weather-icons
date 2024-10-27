@@ -1,62 +1,62 @@
 @use "../icon-variables/variables-day" as *;
 @use "../icon-variables/variables-neutral" as *;
 @use "../icon-variables/variables-night" as *;
-@use "../weather-icons-core";
+@use "../weather-icons-core" as *;
 
 .#{weather-icons-core.$wi-css-prefix}-wu-chanceflurries::before {
-	content: variables-neutral.$snow-wind;
+	content: $snow-wind;
 }
 .#{weather-icons-core.$wi-css-prefix}-wu-chancerain::before {
-	content: variables-neutral.$rain;
+	content: $rain;
 }
 .#{weather-icons-core.$wi-css-prefix}-wu-chancesleat::before {
-	content: variables-neutral.$sleet;
+	content: $sleet;
 }
 .#{weather-icons-core.$wi-css-prefix}-wu-chancesnow::before {
-	content: variables-neutral.$snow;
+	content: $snow;
 }
 .#{weather-icons-core.$wi-css-prefix}-wu-chancetstorms::before {
-	content: variables-night.$thunderstorm;
+	content: $thunderstorm;
 }
 .#{weather-icons-core.$wi-css-prefix}-wu-clear::before {
-	content: variables-day.$day-sunny;
+	content: $day-sunny;
 }
 .#{weather-icons-core.$wi-css-prefix}-wu-cloudy::before {
-	content: variables-day.$day-cloudy;
+	content: $day-cloudy;
 }
 .#{weather-icons-core.$wi-css-prefix}-wu-flurries::before {
-	content: variables-neutral.$snow-wind;
+	content: $snow-wind;
 }
 .#{weather-icons-core.$wi-css-prefix}-wu-hazy::before {
-	content: variables-day.$day-haze;
+	content: $day-haze;
 }
 .#{weather-icons-core.$wi-css-prefix}-wu-mostlycloudy::before {
-	content: variables-day.$day-cloudy;
+	content: $day-cloudy;
 }
 .#{weather-icons-core.$wi-css-prefix}-wu-mostlysunny::before {
-	content: variables-day.$day-sunny;
+	content: $day-sunny;
 }
 .#{weather-icons-core.$wi-css-prefix}-wu-partlycloudy::before {
-	content: variables-day.$day-cloudy;
+	content: $day-cloudy;
 }
 .#{weather-icons-core.$wi-css-prefix}-wu-partlysunny::before {
-	content: variables-day.$day-sunny;
+	content: $day-sunny;
 }
 .#{weather-icons-core.$wi-css-prefix}-wu-rain::before {
-	content: variables-neutral.$showers;
+	content: $showers;
 }
 .#{weather-icons-core.$wi-css-prefix}-wu-sleat::before {
-	content: variables-neutral.$sleet;
+	content: $sleet;
 }
 .#{weather-icons-core.$wi-css-prefix}-wu-snow::before {
-	content: variables-neutral.$snow;
+	content: $snow;
 }
 .#{weather-icons-core.$wi-css-prefix}-wu-sunny::before {
-	content: variables-day.$day-sunny;
+	content: $day-sunny;
 }
 .#{weather-icons-core.$wi-css-prefix}-wu-tstorms::before {
-	content: variables-night.$thunderstorm;
+	content: $thunderstorm;
 }
 .#{weather-icons-core.$wi-css-prefix}-wu-unknown::before {
-	content: variables-day.$day-sunny;
+	content: $day-sunny;
 }

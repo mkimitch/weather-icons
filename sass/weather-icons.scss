@@ -20,9 +20,9 @@
  *    "Font Awesome by Dave Gandy - http://fontawesome.io"
  */
 
-@use 'weather-icons-core.scss';
-@use 'weather-icons-variables.scss';
-@use 'weather-icons-classes.scss';
+@use "weather-icons-core.scss";
+@use "weather-icons-variables.scss";
+@use "weather-icons-classes.scss";
 // Mappings to various APIs
 @use "mappings/wi-yahoo.scss";
 @use "mappings/wi-forecast-io.scss";

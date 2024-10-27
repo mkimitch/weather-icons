@@ -1,44 +1,44 @@
 @use "../icon-variables/variables-day" as *;
 @use "../icon-variables/variables-neutral" as *;
 @use "../icon-variables/variables-night" as *;
-@use "../weather-icons-core";
+@use "../weather-icons-core" as *;
 
-.#{weather-icons-core.$wi-css-prefix}-forecast-io-clear-day::before {
-	content: variables-day.$day-sunny;
+.#{$wi-css-prefix}-forecast-io-clear-day::before {
+	content: $day-sunny;
 }
-.#{weather-icons-core.$wi-css-prefix}-forecast-io-clear-night::before {
-	content: variables-night.$night-clear;
+.#{$wi-css-prefix}-forecast-io-clear-night::before {
+	content: $night-clear;
 }
-.#{weather-icons-core.$wi-css-prefix}-forecast-io-rain::before {
-	content: variables-neutral.$rain;
+.#{$wi-css-prefix}-forecast-io-rain::before {
+	content: $rain;
 }
-.#{weather-icons-core.$wi-css-prefix}-forecast-io-snow::before {
-	content: variables-neutral.$snow;
+.#{$wi-css-prefix}-forecast-io-snow::before {
+	content: $snow;
 }
-.#{weather-icons-core.$wi-css-prefix}-forecast-io-sleet::before {
-	content: variables-neutral.$sleet;
+.#{$wi-css-prefix}-forecast-io-sleet::before {
+	content: $sleet;
 }
-.#{weather-icons-core.$wi-css-prefix}-forecast-io-wind::before {
-	content: variables-neutral.$strong-wind;
+.#{$wi-css-prefix}-forecast-io-wind::before {
+	content: $strong-wind;
 }
-.#{weather-icons-core.$wi-css-prefix}-forecast-io-fog::before {
-	content: variables-neutral.$fog;
+.#{$wi-css-prefix}-forecast-io-fog::before {
+	content: $fog;
 }
-.#{weather-icons-core.$wi-css-prefix}-forecast-io-cloudy::before {
-	content: variables-neutral.$cloudy;
+.#{$wi-css-prefix}-forecast-io-cloudy::before {
+	content: $cloudy;
 }
-.#{weather-icons-core.$wi-css-prefix}-forecast-io-partly-cloudy-day::before {
-	content: variables-day.$day-cloudy;
+.#{$wi-css-prefix}-forecast-io-partly-cloudy-day::before {
+	content: $day-cloudy;
 }
-.#{weather-icons-core.$wi-css-prefix}-forecast-io-partly-cloudy-night::before {
-	content: variables-night.$night-cloudy;
+.#{$wi-css-prefix}-forecast-io-partly-cloudy-night::before {
+	content: $night-cloudy;
 }
-.#{weather-icons-core.$wi-css-prefix}-forecast-io-hail::before {
-	content: variables-neutral.$hail;
+.#{$wi-css-prefix}-forecast-io-hail::before {
+	content: $hail;
 }
-.#{weather-icons-core.$wi-css-prefix}-forecast-io-thunderstorm::before {
-	content: variables-night.$thunderstorm;
+.#{$wi-css-prefix}-forecast-io-thunderstorm::before {
+	content: $thunderstorm;
 }
-.#{weather-icons-core.$wi-css-prefix}-forecast-io-tornado::before {
-	content: variables-neutral.$tornado;
+.#{$wi-css-prefix}-forecast-io-tornado::before {
+	content: $tornado;
 }

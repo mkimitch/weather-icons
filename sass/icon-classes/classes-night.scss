@@ -1,134 +1,134 @@
 @use "../icon-variables/variables-night" as *;
 
 .wi-night-clear::before {
-	content: variables-night.$night-clear;
+	content: $night-clear;
 }
 .wi-night-alt-cloudy::before {
-	content: variables-night.$night-alt-cloudy;
+	content: $night-alt-cloudy;
 }
 .wi-night-alt-cloudy-gusts::before {
-	content: variables-night.$night-alt-cloudy-gusts;
+	content: $night-alt-cloudy-gusts;
 }
 .wi-night-alt-cloudy-windy::before {
-	content: variables-night.$night-alt-cloudy-windy;
+	content: $night-alt-cloudy-windy;
 }
 .wi-night-alt-hail::before {
-	content: variables-night.$night-alt-hail;
+	content: $night-alt-hail;
 }
 .wi-night-alt-lightning::before {
-	content: variables-night.$night-alt-lightning;
+	content: $night-alt-lightning;
 }
 .wi-night-alt-rain::before {
-	content: variables-night.$night-alt-rain;
+	content: $night-alt-rain;
 }
 .wi-night-alt-rain-mix::before {
-	content: variables-night.$night-alt-rain-mix;
+	content: $night-alt-rain-mix;
 }
 .wi-night-alt-rain-wind::before {
-	content: variables-night.$night-alt-rain-wind;
+	content: $night-alt-rain-wind;
 }
 .wi-night-alt-showers::before {
-	content: variables-night.$night-alt-showers;
+	content: $night-alt-showers;
 }
 .wi-night-alt-sleet::before {
-	content: variables-night.$night-alt-sleet;
+	content: $night-alt-sleet;
 }
 .wi-night-alt-sleet-storm::before {
-	content: variables-night.$night-alt-sleet-storm;
+	content: $night-alt-sleet-storm;
 }
 .wi-night-alt-snow::before {
-	content: variables-night.$night-alt-snow;
+	content: $night-alt-snow;
 }
 .wi-night-alt-snow-thunderstorm::before {
-	content: variables-night.$night-alt-snow-thunderstorm;
+	content: $night-alt-snow-thunderstorm;
 }
 .wi-night-alt-snow-wind::before {
-	content: variables-night.$night-alt-snow-wind;
+	content: $night-alt-snow-wind;
 }
 .wi-night-alt-sprinkle::before {
-	content: variables-night.$night-alt-sprinkle;
+	content: $night-alt-sprinkle;
 }
 .wi-night-alt-storm-showers::before {
-	content: variables-night.$night-alt-storm-showers;
+	content: $night-alt-storm-showers;
 }
 .wi-night-alt-thunderstorm::before {
-	content: variables-night.$night-alt-thunderstorm;
+	content: $night-alt-thunderstorm;
 }
 .wi-night-cloudy::before {
-	content: variables-night.$night-cloudy;
+	content: $night-cloudy;
 }
 .wi-night-cloudy-gusts::before {
-	content: variables-night.$night-cloudy-gusts;
+	content: $night-cloudy-gusts;
 }
 .wi-night-cloudy-windy::before {
-	content: variables-night.$night-cloudy-windy;
+	content: $night-cloudy-windy;
 }
 .wi-night-fog::before {
-	content: variables-night.$night-fog;
+	content: $night-fog;
 }
 .wi-night-hail::before {
-	content: variables-night.$night-hail;
+	content: $night-hail;
 }
 .wi-night-lightning::before {
-	content: variables-night.$night-lightning;
+	content: $night-lightning;
 }
 .wi-night-partly-cloudy::before {
-	content: variables-night.$night-partly-cloudy;
+	content: $night-partly-cloudy;
 }
 .wi-night-rain::before {
-	content: variables-night.$night-rain;
+	content: $night-rain;
 }
 .wi-night-rain-mix::before {
-	content: variables-night.$night-rain-mix;
+	content: $night-rain-mix;
 }
 .wi-night-rain-wind::before {
-	content: variables-night.$night-rain-wind;
+	content: $night-rain-wind;
 }
 .wi-night-showers::before {
-	content: variables-night.$night-showers;
+	content: $night-showers;
 }
 .wi-night-sleet::before {
-	content: variables-night.$night-sleet;
+	content: $night-sleet;
 }
 .wi-night-sleet-storm::before {
-	content: variables-night.$night-sleet-storm;
+	content: $night-sleet-storm;
 }
 .wi-night-snow::before {
-	content: variables-night.$night-snow;
+	content: $night-snow;
 }
 .wi-night-snow-thunderstorm::before {
-	content: variables-night.$night-snow-thunderstorm;
+	content: $night-snow-thunderstorm;
 }
 .wi-night-snow-wind::before {
-	content: variables-night.$night-snow-wind;
+	content: $night-snow-wind;
 }
 .wi-night-sprinkle::before {
-	content: variables-night.$night-sprinkle;
+	content: $night-sprinkle;
 }
 .wi-night-storm-showers::before {
-	content: variables-night.$night-storm-showers;
+	content: $night-storm-showers;
 }
 .wi-night-thunderstorm::before {
-	content: variables-night.$night-thunderstorm;
+	content: $night-thunderstorm;
 }
 .wi-lunar-eclipse::before {
-	content: variables-night.$lunar-eclipse;
+	content: $lunar-eclipse;
 }
 .wi-stars::before {
-	content: variables-night.$stars;
+	content: $stars;
 }
 .wi-storm-showers::before {
-	content: variables-night.$storm-showers;
+	content: $storm-showers;
 }
 .wi-thunderstorm::before {
-	content: variables-night.$thunderstorm;
+	content: $thunderstorm;
 }
 .wi-night-alt-cloudy-high::before {
-	content: variables-night.$night-alt-cloudy-high;
+	content: $night-alt-cloudy-high;
 }
 .wi-night-cloudy-high::before {
-	content: variables-night.$night-cloudy-high;
+	content: $night-cloudy-high;
 }
 .wi-night-alt-partly-cloudy::before {
-	content: variables-night.$night-alt-partly-cloudy;
+	content: $night-alt-partly-cloudy;
 }

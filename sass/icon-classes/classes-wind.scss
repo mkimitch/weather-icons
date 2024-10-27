@@ -1,11 +1,10 @@
-@use "../weather-icons-core";
-
 // Wind Variables 2.0
 @use "sass:meta";
+@use "../weather-icons-core" as *;
 
 $wind: "\f0b1";
 
-.#{weather-icons-core.$wi-css-prefix}-wind::before {
+.#{$wi-css-prefix}-wind::before {
 	content: $wind;
 }
 

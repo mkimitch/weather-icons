@@ -1,152 +1,152 @@
 @use "../icon-variables/variables-day" as *;
 @use "../icon-variables/variables-neutral" as *;
 @use "../icon-variables/variables-night" as *;
-@use "../weather-icons-core";
+@use "../weather-icons-core" as *;
 
 .#{weather-icons-core.$wi-css-prefix}-yahoo-0::before {
-	content: variables-neutral.$tornado;
+	content: $tornado;
 }
 .#{weather-icons-core.$wi-css-prefix}-yahoo-1::before {
-	content: variables-day.$day-storm-showers;
+	content: $day-storm-showers;
 }
 .#{weather-icons-core.$wi-css-prefix}-yahoo-2::before {
-	content: variables-neutral.$hurricane;
+	content: $hurricane;
 }
 .#{weather-icons-core.$wi-css-prefix}-yahoo-3::before {
-	content: variables-night.$thunderstorm;
+	content: $thunderstorm;
 }
 .#{weather-icons-core.$wi-css-prefix}-yahoo-4::before {
-	content: variables-night.$thunderstorm;
+	content: $thunderstorm;
 }
 .#{weather-icons-core.$wi-css-prefix}-yahoo-5::before {
-	content: variables-neutral.$rain-mix;
+	content: $rain-mix;
 }
 .#{weather-icons-core.$wi-css-prefix}-yahoo-6::before {
-	content: variables-neutral.$rain-mix;
+	content: $rain-mix;
 }
 .#{weather-icons-core.$wi-css-prefix}-yahoo-7::before {
-	content: variables-neutral.$rain-mix;
+	content: $rain-mix;
 }
 .#{weather-icons-core.$wi-css-prefix}-yahoo-8::before {
-	content: variables-neutral.$hail;
+	content: $hail;
 }
 .#{weather-icons-core.$wi-css-prefix}-yahoo-9::before {
-	content: variables-neutral.$showers;
+	content: $showers;
 }
 .#{weather-icons-core.$wi-css-prefix}-yahoo-10::before {
-	content: variables-neutral.$hail;
+	content: $hail;
 }
 .#{weather-icons-core.$wi-css-prefix}-yahoo-11::before {
-	content: variables-neutral.$showers;
+	content: $showers;
 }
 .#{weather-icons-core.$wi-css-prefix}-yahoo-12::before {
-	content: variables-neutral.$showers;
+	content: $showers;
 }
 .#{weather-icons-core.$wi-css-prefix}-yahoo-13::before {
-	content: variables-neutral.$snow;
+	content: $snow;
 }
 .#{weather-icons-core.$wi-css-prefix}-yahoo-14::before {
-	content: variables-day.$day-snow;
+	content: $day-snow;
 }
 .#{weather-icons-core.$wi-css-prefix}-yahoo-15::before {
-	content: variables-neutral.$snow-wind;
+	content: $snow-wind;
 }
 .#{weather-icons-core.$wi-css-prefix}-yahoo-16::before {
-	content: variables-neutral.$snow;
+	content: $snow;
 }
 .#{weather-icons-core.$wi-css-prefix}-yahoo-17::before {
-	content: variables-neutral.$hail;
+	content: $hail;
 }
 .#{weather-icons-core.$wi-css-prefix}-yahoo-18::before {
-	content: variables-neutral.$rain-mix;
+	content: $rain-mix;
 }
 .#{weather-icons-core.$wi-css-prefix}-yahoo-19::before {
-	content: variables-neutral.$dust;
+	content: $dust;
 }
 .#{weather-icons-core.$wi-css-prefix}-yahoo-20::before {
-	content: variables-neutral.$fog;
+	content: $fog;
 }
 .#{weather-icons-core.$wi-css-prefix}-yahoo-21::before {
-	content: variables-neutral.$windy;
+	content: $windy;
 }
 .#{weather-icons-core.$wi-css-prefix}-yahoo-22::before {
-	content: variables-neutral.$smoke;
+	content: $smoke;
 }
 .#{weather-icons-core.$wi-css-prefix}-yahoo-23::before {
-	content: variables-neutral.$strong-wind;
+	content: $strong-wind;
 }
 .#{weather-icons-core.$wi-css-prefix}-yahoo-24::before {
-	content: variables-neutral.$strong-wind;
+	content: $strong-wind;
 }
 .#{weather-icons-core.$wi-css-prefix}-yahoo-25::before {
-	content: variables-neutral.$snowflake-cold;
+	content: $snowflake-cold;
 }
 .#{weather-icons-core.$wi-css-prefix}-yahoo-26::before {
-	content: variables-neutral.$cloudy;
+	content: $cloudy;
 }
 .#{weather-icons-core.$wi-css-prefix}-yahoo-27::before {
-	content: variables-night.$night-cloudy;
+	content: $night-cloudy;
 }
 .#{weather-icons-core.$wi-css-prefix}-yahoo-28::before {
-	content: variables-day.$day-cloudy;
+	content: $day-cloudy;
 }
 .#{weather-icons-core.$wi-css-prefix}-yahoo-29::before {
-	content: variables-night.$night-cloudy;
+	content: $night-cloudy;
 }
 .#{weather-icons-core.$wi-css-prefix}-yahoo-30::before {
-	content: variables-day.$day-cloudy;
+	content: $day-cloudy;
 }
 .#{weather-icons-core.$wi-css-prefix}-yahoo-31::before {
-	content: variables-night.$night-clear;
+	content: $night-clear;
 }
 .#{weather-icons-core.$wi-css-prefix}-yahoo-32::before {
-	content: variables-day.$day-sunny;
+	content: $day-sunny;
 }
 .#{weather-icons-core.$wi-css-prefix}-yahoo-33::before {
-	content: variables-night.$night-partly-cloudy;
+	content: $night-partly-cloudy;
 }
 .#{weather-icons-core.$wi-css-prefix}-yahoo-34::before {
-	content: variables-day.$day-sunny-overcast;
+	content: $day-sunny-overcast;
 }
 .#{weather-icons-core.$wi-css-prefix}-yahoo-35::before {
-	content: variables-neutral.$rain-mix;
+	content: $rain-mix;
 }
 .#{weather-icons-core.$wi-css-prefix}-yahoo-36::before {
-	content: variables-day.$hot;
+	content: $hot;
 }
 .#{weather-icons-core.$wi-css-prefix}-yahoo-37::before {
-	content: variables-day.$day-storm-showers;
+	content: $day-storm-showers;
 }
 .#{weather-icons-core.$wi-css-prefix}-yahoo-38::before {
-	content: variables-day.$day-storm-showers;
+	content: $day-storm-showers;
 }
 .#{weather-icons-core.$wi-css-prefix}-yahoo-39::before {
-	content: variables-day.$day-storm-showers;
+	content: $day-storm-showers;
 }
 .#{weather-icons-core.$wi-css-prefix}-yahoo-40::before {
-	content: variables-neutral.$showers;
+	content: $showers;
 }
 .#{weather-icons-core.$wi-css-prefix}-yahoo-41::before {
-	content: variables-neutral.$snow-wind;
+	content: $snow-wind;
 }
 .#{weather-icons-core.$wi-css-prefix}-yahoo-42::before {
-	content: variables-neutral.$snow;
+	content: $snow;
 }
 .#{weather-icons-core.$wi-css-prefix}-yahoo-43::before {
-	content: variables-neutral.$snow-wind;
+	content: $snow-wind;
 }
 .#{weather-icons-core.$wi-css-prefix}-yahoo-44::before {
-	content: variables-day.$day-sunny-overcast;
+	content: $day-sunny-overcast;
 }
 .#{weather-icons-core.$wi-css-prefix}-yahoo-45::before {
-	content: variables-day.$day-storm-showers;
+	content: $day-storm-showers;
 }
 .#{weather-icons-core.$wi-css-prefix}-yahoo-46::before {
-	content: variables-neutral.$snow;
+	content: $snow;
 }
 .#{weather-icons-core.$wi-css-prefix}-yahoo-47::before {
-	content: variables-day.$day-storm-showers;
+	content: $day-storm-showers;
 }
 .#{weather-icons-core.$wi-css-prefix}-yahoo-3200::before {
-	content: variables-night.$stars;
+	content: $stars;
 }
