@@ -1,5 +1,5 @@
-@use "../icon-variables/variables-neutral";
-@use "../icon-variables/variables-night";
+@use "../icon-variables/variables-neutral" as *;
+@use "../icon-variables/variables-night" as *;
 
 .wi-cloud::before {
 	content: variables-neutral.$cloud;

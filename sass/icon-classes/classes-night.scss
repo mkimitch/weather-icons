@@ -1,4 +1,4 @@
-@use "../icon-variables/variables-night";
+@use "../icon-variables/variables-night" as *;
 
 .wi-night-clear::before {
 	content: variables-night.$night-clear;

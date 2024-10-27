@@ -1,4 +1,4 @@
-@use "../icon-variables/variables-time";
+@use "../icon-variables/variables-time" as *;
 
 .wi-time-1::before {
 	content: $time-1;

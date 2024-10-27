@@ -1,4 +1,4 @@
-@use "../icon-variables/variables-direction";
+@use "../icon-variables/variables-direction" as *;
 
 .wi-direction-up::before {
 	content: variables-direction.$direction-up;

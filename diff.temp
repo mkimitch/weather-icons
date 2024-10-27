@@ -1,0 +1,179 @@
+```diff
+diff --git a/sass/icon-classes/classes-beaufort.scss b/sass/icon-classes/classes-beaufort.scss
+index 367e75b..e3fa610 100644
+--- a/sass/icon-classes/classes-beaufort.scss
++++ b/sass/icon-classes/classes-beaufort.scss
+@@ -1,4 +1,4 @@
+-@use "../icon-variables/variables-beaufort";
++@use "../icon-variables/variables-beaufort" as *;
+ 
+ .wi-wind-beaufort-0::before {
+ 	content: variables-beaufort.$wind-beaufort-0;
+diff --git a/sass/icon-classes/classes-day.scss b/sass/icon-classes/classes-day.scss
+index 29bee3f..824c10c 100644
+--- a/sass/icon-classes/classes-day.scss
++++ b/sass/icon-classes/classes-day.scss
+@@ -1,4 +1,4 @@
+-@use "../icon-variables/variables-day";
++@use "../icon-variables/variables-day" as *;
+ 
+ .wi-day-sunny::before {
+ 	content: variables-day.$day-sunny;
+diff --git a/sass/icon-classes/classes-direction.scss b/sass/icon-classes/classes-direction.scss
+index c85a97c..d438944 100644
+--- a/sass/icon-classes/classes-direction.scss
++++ b/sass/icon-classes/classes-direction.scss
+@@ -1,4 +1,4 @@
+-@use "../icon-variables/variables-direction";
++@use "../icon-variables/variables-direction" as *;
+ 
+ .wi-direction-up::before {
+ 	content: variables-direction.$direction-up;
+diff --git a/sass/icon-classes/classes-misc.scss b/sass/icon-classes/classes-misc.scss
+index 7b0552d..d5a3aba 100644
+--- a/sass/icon-classes/classes-misc.scss
++++ b/sass/icon-classes/classes-misc.scss
+@@ -1,4 +1,4 @@
+-@use "../icon-variables/variables-misc";
++@use "../icon-variables/variables-misc" as *;
+ 
+ .wi-alien::before {
+ 	content: variables-misc.$alien;
+diff --git a/sass/icon-classes/classes-moon-aliases.scss b/sass/icon-classes/classes-moon-aliases.scss
+index 95da211..65997c2 100644
+--- a/sass/icon-classes/classes-moon-aliases.scss
++++ b/sass/icon-classes/classes-moon-aliases.scss
+@@ -1,4 +1,4 @@
+-@use "../icon-variables/variables-moon";
++@use "../icon-variables/variables-moon" as *;
+ 
+ .wi-moon-0::before {
+ 	content: variables-moon.$moon-new;
+diff --git a/sass/icon-classes/classes-moon.scss b/sass/icon-classes/classes-moon.scss
+index 2870b78..5b80716 100644
+--- a/sass/icon-classes/classes-moon.scss
++++ b/sass/icon-classes/classes-moon.scss
+@@ -1,4 +1,4 @@
+-@use "../icon-variables/variables-moon";
++@use "../icon-variables/variables-moon" as *;
+ 
+ .wi-moon-new::before {
+ 	content: variables-moon.$moon-new;
+diff --git a/sass/icon-classes/classes-neutral.scss b/sass/icon-classes/classes-neutral.scss
+index 7aa7970..709d3e8 100644
+--- a/sass/icon-classes/classes-neutral.scss
++++ b/sass/icon-classes/classes-neutral.scss
+@@ -1,5 +1,5 @@
+-@use "../icon-variables/variables-neutral";
+-@use "../icon-variables/variables-night";
++@use "../icon-variables/variables-neutral" as *;
++@use "../icon-variables/variables-night" as *;
+ 
+ .wi-cloud::before {
+ 	content: variables-neutral.$cloud;
+diff --git a/sass/icon-classes/classes-night.scss b/sass/icon-classes/classes-night.scss
+index 13e7103..95108d9 100644
+--- a/sass/icon-classes/classes-night.scss
++++ b/sass/icon-classes/classes-night.scss
+@@ -1,4 +1,4 @@
+-@use "../icon-variables/variables-night";
++@use "../icon-variables/variables-night" as *;
+ 
+ .wi-night-clear::before {
+ 	content: variables-night.$night-clear;
+diff --git a/sass/icon-classes/classes-time.scss b/sass/icon-classes/classes-time.scss
+index f9eabdc..c7dcd53 100644
+--- a/sass/icon-classes/classes-time.scss
++++ b/sass/icon-classes/classes-time.scss
+@@ -1,4 +1,4 @@
+-@use "../icon-variables/variables-time";
++@use "../icon-variables/variables-time" as *;
+ 
+ .wi-time-1::before {
+ 	content: $time-1;
+diff --git a/sass/icon-variables/variables-neutral.scss b/sass/icon-variables/variables-neutral.scss
+index d2adbd5..3154ba0 100644
+--- a/sass/icon-variables/variables-neutral.scss
++++ b/sass/icon-variables/variables-neutral.scss
+@@ -13,8 +13,8 @@ $showers: "\f01a";
+ $sleet: "\f0b5";
+ $snow: "\f01b";
+ $sprinkle: "\f01c";
+-variables-night.$storm-showers: "\f01d";
+-variables-night.$thunderstorm: "\f01e";
++variables-night.variables-night.$storm-showers: "\f01d";
++variables-night.variables-night.$thunderstorm: "\f01e";
+ $snow-wind: "\f064";
+ $snow: "\f01b";
+ $smog: "\f074";
+diff --git a/sass/mappings/wi-forecast-io.scss b/sass/mappings/wi-forecast-io.scss
+index 05800d9..2f653f6 100644
+--- a/sass/mappings/wi-forecast-io.scss
++++ b/sass/mappings/wi-forecast-io.scss
+@@ -1,6 +1,6 @@
+-@use "../icon-variables/variables-day";
+-@use "../icon-variables/variables-neutral";
+-@use "../icon-variables/variables-night";
++@use "../icon-variables/variables-day" as *;
++@use "../icon-variables/variables-neutral" as *;
++@use "../icon-variables/variables-night" as *;
+ @use "../weather-icons-core";
+ 
+ .#{weather-icons-core.$wi-css-prefix}-forecast-io-clear-day::before {
+diff --git a/sass/mappings/wi-owm.scss b/sass/mappings/wi-owm.scss
+index dfea8f9..273b1bb 100644
+--- a/sass/mappings/wi-owm.scss
++++ b/sass/mappings/wi-owm.scss
+@@ -1,6 +1,6 @@
+-@use "../icon-variables/variables-day";
+-@use "../icon-variables/variables-neutral";
+-@use "../icon-variables/variables-night";
++@use "../icon-variables/variables-day" as *;
++@use "../icon-variables/variables-neutral" as *;
++@use "../icon-variables/variables-night" as *;
+ @use "../weather-icons-core";
+ 
+ // Neutral
+diff --git a/sass/mappings/wi-wmo4680.scss b/sass/mappings/wi-wmo4680.scss
+index e436407..24ecf3a 100644
+--- a/sass/mappings/wi-wmo4680.scss
++++ b/sass/mappings/wi-wmo4680.scss
+@@ -1,6 +1,6 @@
+-@use "../icon-variables/variables-misc";
+-@use "../icon-variables/variables-neutral";
+-@use "../icon-variables/variables-night";
++@use "../icon-variables/variables-misc" as *;
++@use "../icon-variables/variables-neutral" as *;
++@use "../icon-variables/variables-night" as *;
+ @use "../weather-icons-core";
+ 
+ .#{weather-icons-core.$wi-css-prefix}-wmo4680-0::before,
+diff --git a/sass/mappings/wi-wunderground.scss b/sass/mappings/wi-wunderground.scss
+index 2b0d680..f17f171 100644
+--- a/sass/mappings/wi-wunderground.scss
++++ b/sass/mappings/wi-wunderground.scss
+@@ -1,6 +1,6 @@
+-@use "../icon-variables/variables-day";
+-@use "../icon-variables/variables-neutral";
+-@use "../icon-variables/variables-night";
++@use "../icon-variables/variables-day" as *;
++@use "../icon-variables/variables-neutral" as *;
++@use "../icon-variables/variables-night" as *;
+ @use "../weather-icons-core";
+ 
+ .#{weather-icons-core.$wi-css-prefix}-wu-chanceflurries::before {
+diff --git a/sass/mappings/wi-yahoo.scss b/sass/mappings/wi-yahoo.scss
+index a25abef..34a2952 100644
+--- a/sass/mappings/wi-yahoo.scss
++++ b/sass/mappings/wi-yahoo.scss
+@@ -1,6 +1,6 @@
+-@use "../icon-variables/variables-day";
+-@use "../icon-variables/variables-neutral";
+-@use "../icon-variables/variables-night";
++@use "../icon-variables/variables-day" as *;
++@use "../icon-variables/variables-neutral" as *;
++@use "../icon-variables/variables-night" as *;
+ @use "../weather-icons-core";
+ 
+ .#{weather-icons-core.$wi-css-prefix}-yahoo-0::before {
+```

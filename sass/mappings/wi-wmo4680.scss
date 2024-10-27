@@ -1,6 +1,6 @@
-@use "../icon-variables/variables-misc";
-@use "../icon-variables/variables-neutral";
-@use "../icon-variables/variables-night";
+@use "../icon-variables/variables-misc" as *;
+@use "../icon-variables/variables-neutral" as *;
+@use "../icon-variables/variables-night" as *;
 @use "../weather-icons-core";
 
 .#{weather-icons-core.$wi-css-prefix}-wmo4680-0::before,

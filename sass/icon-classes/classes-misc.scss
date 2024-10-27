@@ -1,4 +1,4 @@
-@use "../icon-variables/variables-misc";
+@use "../icon-variables/variables-misc" as *;
 
 .wi-alien::before {
 	content: variables-misc.$alien;

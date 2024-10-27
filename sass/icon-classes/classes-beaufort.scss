@@ -1,4 +1,4 @@
-@use "../icon-variables/variables-beaufort";
+@use "../icon-variables/variables-beaufort" as *;
 
 .wi-wind-beaufort-0::before {
 	content: variables-beaufort.$wind-beaufort-0;
