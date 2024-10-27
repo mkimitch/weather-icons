@@ -2,122 +2,122 @@
 @use "../icon-variables/variables-night" as *;
 
 .wi-cloud::before {
-	content: $cloud;
+	content: variables-neutral.$cloud;
 }
 .wi-cloudy::before {
-	content: $cloudy;
+	content: variables-neutral.$cloudy;
 }
 .wi-cloudy-gusts::before {
-	content: $cloudy-gusts;
+	content: variables-neutral.$cloudy-gusts;
 }
 .wi-cloudy-windy::before {
-	content: $cloudy-windy;
+	content: variables-neutral.$cloudy-windy;
 }
 .wi-fog::before {
-	content: $fog;
+	content: variables-neutral.$fog;
 }
 .wi-hail::before {
-	content: $hail;
+	content: variables-neutral.$hail;
 }
 .wi-rain::before {
-	content: $rain;
+	content: variables-neutral.$rain;
 }
 .wi-rain-mix::before {
-	content: $rain-mix;
+	content: variables-neutral.$rain-mix;
 }
 .wi-rain-wind::before {
-	content: $rain-wind;
+	content: variables-neutral.$rain-wind;
 }
 .wi-showers::before {
-	content: $showers;
+	content: variables-neutral.$showers;
 }
 .wi-sleet::before {
-	content: $sleet;
+	content: variables-neutral.$sleet;
 }
 .wi-snow::before {
-	content: $snow;
+	content: variables-neutral.$snow;
 }
 .wi-sprinkle::before {
-	content: $sprinkle;
+	content: variables-neutral.$sprinkle;
 }
 .wi-storm-showers::before {
-	content: $storm-showers;
+	content: variables-night.$storm-showers;
 }
 .wi-thunderstorm::before {
-	content: $thunderstorm;
+	content: variables-night.$thunderstorm;
 }
 .wi-snow-wind::before {
-	content: $snow-wind;
+	content: variables-neutral.$snow-wind;
 }
 .wi-snow::before {
-	content: $snow;
+	content: variables-neutral.$snow;
 }
 .wi-smog::before {
-	content: $smog;
+	content: variables-neutral.$smog;
 }
 .wi-smoke::before {
-	content: $smoke;
+	content: variables-neutral.$smoke;
 }
 .wi-lightning::before {
-	content: $lightning;
+	content: variables-neutral.$lightning;
 }
 .wi-raindrops::before {
-	content: $raindrops;
+	content: variables-neutral.$raindrops;
 }
 .wi-raindrop::before {
-	content: $raindrop;
+	content: variables-neutral.$raindrop;
 }
 .wi-dust::before {
-	content: $dust;
+	content: variables-neutral.$dust;
 }
 .wi-snowflake-cold::before {
-	content: $snowflake-cold;
+	content: variables-neutral.$snowflake-cold;
 }
 .wi-windy::before {
-	content: $windy;
+	content: variables-neutral.$windy;
 }
 .wi-strong-wind::before {
-	content: $strong-wind;
+	content: variables-neutral.$strong-wind;
 }
 .wi-sandstorm::before {
-	content: $sandstorm;
+	content: variables-neutral.$sandstorm;
 }
 .wi-earthquake::before {
-	content: $earthquake;
+	content: variables-neutral.$earthquake;
 }
 .wi-fire::before {
-	content: $fire;
+	content: variables-neutral.$fire;
 }
 .wi-flood::before {
-	content: $flood;
+	content: variables-neutral.$flood;
 }
 .wi-meteor::before {
-	content: $meteor;
+	content: variables-neutral.$meteor;
 }
 .wi-tsunami::before {
-	content: $tsunami;
+	content: variables-neutral.$tsunami;
 }
 .wi-volcano::before {
-	content: $volcano;
+	content: variables-neutral.$volcano;
 }
 .wi-hurricane::before {
-	content: $hurricane;
+	content: variables-neutral.$hurricane;
 }
 .wi-tornado::before {
-	content: $tornado;
+	content: variables-neutral.$tornado;
 }
 .wi-small-craft-advisory::before {
-	content: $small-craft-advisory;
+	content: variables-neutral.$small-craft-advisory;
 }
 .wi-gale-warning::before {
-	content: $gale-warning;
+	content: variables-neutral.$gale-warning;
 }
 .wi-storm-warning::before {
-	content: $storm-warning;
+	content: variables-neutral.$storm-warning;
 }
 .wi-hurricane-warning::before {
-	content: $hurricane-warning;
+	content: variables-neutral.$hurricane-warning;
 }
 .wi-wind-direction::before {
-	content: $wind-direction;
+	content: variables-neutral.$wind-direction;
 }
