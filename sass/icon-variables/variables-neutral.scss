@@ -1,3 +1,5 @@
+@use "variables-night";
+
 $cloud: "\f041";
 $cloudy: "\f013";
 $cloudy-gusts: "\f011";
@@ -11,8 +13,8 @@ $showers: "\f01a";
 $sleet: "\f0b5";
 $snow: "\f01b";
 $sprinkle: "\f01c";
-$storm-showers: "\f01d";
-$thunderstorm: "\f01e";
+variables-night.$storm-showers: "\f01d";
+variables-night.$thunderstorm: "\f01e";
 $snow-wind: "\f064";
 $snow: "\f01b";
 $smog: "\f074";

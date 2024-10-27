@@ -1,23 +1,71 @@
-.wi-alien:before {content: $alien;}
-.wi-celsius:before {content: $celsius;}
-.wi-fahrenheit:before {content: $fahrenheit;}
-.wi-degrees:before {content: $degrees;}
-.wi-thermometer:before {content: $thermometer;}
-.wi-thermometer-exterior:before {content: $thermometer-exterior;}
-.wi-thermometer-internal:before {content: $thermometer-internal;}
-.wi-cloud-down:before {content: $cloud-down;}
-.wi-cloud-up:before {content: $cloud-up;}
-.wi-cloud-refresh:before {content: $cloud-refresh;}
-.wi-horizon:before {content: $horizon;}
-.wi-horizon-alt:before {content: $horizon-alt;}
-.wi-sunrise:before {content: $sunrise;}
-.wi-sunset:before {content: $sunset;}
-.wi-moonrise:before {content: $moonrise;}
-.wi-moonset:before {content: $moonset;}
-.wi-refresh:before {content: $refresh;}
-.wi-refresh-alt:before {content: $refresh-alt;}
-.wi-umbrella:before {content: $umbrella;}
-.wi-barometer:before {content: $barometer;}
-.wi-humidity:before {content: $humidity;}
-.wi-na:before {content: $na;}
-.wi-train:before {content: $train;}
+@use "../icon-variables/variables-misc";
+
+.wi-alien::before {
+	content: variables-misc.$alien;
+}
+.wi-celsius::before {
+	content: variables-misc.$celsius;
+}
+.wi-fahrenheit::before {
+	content: variables-misc.$fahrenheit;
+}
+.wi-degrees::before {
+	content: variables-misc.$degrees;
+}
+.wi-thermometer::before {
+	content: variables-misc.$thermometer;
+}
+.wi-thermometer-exterior::before {
+	content: variables-misc.$thermometer-exterior;
+}
+.wi-thermometer-internal::before {
+	content: variables-misc.$thermometer-internal;
+}
+.wi-cloud-down::before {
+	content: variables-misc.$cloud-down;
+}
+.wi-cloud-up::before {
+	content: variables-misc.$cloud-up;
+}
+.wi-cloud-refresh::before {
+	content: variables-misc.$cloud-refresh;
+}
+.wi-horizon::before {
+	content: variables-misc.$horizon;
+}
+.wi-horizon-alt::before {
+	content: variables-misc.$horizon-alt;
+}
+.wi-sunrise::before {
+	content: variables-misc.$sunrise;
+}
+.wi-sunset::before {
+	content: variables-misc.$sunset;
+}
+.wi-moonrise::before {
+	content: variables-misc.$moonrise;
+}
+.wi-moonset::before {
+	content: variables-misc.$moonset;
+}
+.wi-refresh::before {
+	content: variables-misc.$refresh;
+}
+.wi-refresh-alt::before {
+	content: variables-misc.$refresh-alt;
+}
+.wi-umbrella::before {
+	content: variables-misc.$umbrella;
+}
+.wi-barometer::before {
+	content: variables-misc.$barometer;
+}
+.wi-humidity::before {
+	content: variables-misc.$humidity;
+}
+.wi-na::before {
+	content: variables-misc.$na;
+}
+.wi-train::before {
+	content: variables-misc.$train;
+}
