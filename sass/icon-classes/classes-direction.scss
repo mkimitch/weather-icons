@@ -1,26 +1,26 @@
 @use "../icon-variables/variables-direction" as *;
 
 .wi-direction-up::before {
-	content: variables-direction.$direction-up;
+	content: $direction-up;
 }
 .wi-direction-up-right::before {
-	content: variables-direction.$direction-up-right;
+	content: $direction-up-right;
 }
 .wi-direction-right::before {
-	content: variables-direction.$direction-right;
+	content: $direction-right;
 }
 .wi-direction-down-right::before {
-	content: variables-direction.$direction-down-right;
+	content: $direction-down-right;
 }
 .wi-direction-down::before {
-	content: variables-direction.$direction-down;
+	content: $direction-down;
 }
 .wi-direction-down-left::before {
-	content: variables-direction.$direction-down-left;
+	content: $direction-down-left;
 }
 .wi-direction-left::before {
-	content: variables-direction.$direction-left;
+	content: $direction-left;
 }
 .wi-direction-up-left::before {
-	content: variables-direction.$direction-up-left;
+	content: $direction-up-left;
 }

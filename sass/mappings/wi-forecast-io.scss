@@ -1,6 +1,6 @@
-@use "../icon-variables/variables-day" as *;
-@use "../icon-variables/variables-neutral" as *;
-@use "../icon-variables/variables-night" as *;
+@use "../icon-variables/variables-day";
+@use "../icon-variables/variables-neutral";
+@use "../icon-variables/variables-night";
 @use "../weather-icons-core";
 
 .#{weather-icons-core.$wi-css-prefix}-forecast-io-clear-day::before {

@@ -1,5 +1,3 @@
-@use "../weather-icons-core";
-
 @use "./wind-mixins" as *;
 
 .#{$wi-css-prefix}-wind {
